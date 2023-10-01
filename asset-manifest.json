@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/go-food/static/css/main.d64e3ea3.css",
+    "main.js": "/go-food/static/js/main.479c7cca.js",
+    "static/js/787.a22cbe65.chunk.js": "/go-food/static/js/787.a22cbe65.chunk.js",
+    "static/media/1.jpg": "/go-food/static/media/1.a327d2b76a8a8c3a73e8.jpg",
+    "static/media/Logos.jpg": "/go-food/static/media/Logos.88ab031296b0dcdc2eea.jpg",
+    "index.html": "/go-food/index.html",
+    "main.d64e3ea3.css.map": "/go-food/static/css/main.d64e3ea3.css.map",
+    "main.479c7cca.js.map": "/go-food/static/js/main.479c7cca.js.map",
+    "787.a22cbe65.chunk.js.map": "/go-food/static/js/787.a22cbe65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d64e3ea3.css",
+    "static/js/main.479c7cca.js"
+  ]
+}
