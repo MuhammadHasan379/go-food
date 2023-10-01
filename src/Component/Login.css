@@ -1,0 +1,41 @@
+label{
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+
+
+.login{
+    margin: 13rem 2rem;
+    width: 27vw;
+}
+
+.Login-Information {
+    width: 30vw;
+    height: 20vh;
+    margin: 5rem 9rem;
+    color: white;
+    font-weight: Bold
+}
+
+
+
+@media (max-width: 630px) {
+    .Login-Information {
+      display: none;
+    }
+    .Login-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .login{
+        width: 60vw;
+    }
+  }
+
+@media (max-width: 740px){
+    .Login-Information{
+        margin: 5rem 5rem
+    }
+}

@@ -1,0 +1,11 @@
+span button{
+    border-radius: 0.4em;
+    align-content: center;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    background: none;
+}
+button:hover{
+    background-color: bisque;
+}

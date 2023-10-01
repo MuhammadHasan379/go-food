@@ -1,0 +1,61 @@
+.leftHalf{
+   width: 40vw;
+   height: 690px;
+   margin-top: 81px;
+}
+
+.image1{
+    border-radius: 30px;
+    width: 20vw;
+    height: 149px;
+    position: absolute;
+    top: 697px;
+    left: 280px;
+    z-index: 0;
+}
+
+.image2{
+    border-radius: 30px;
+    width: 20vw;
+    height: 213px;
+    position: absolute;
+    top: 820px;
+    z-index: 0;
+    margin-left: 8px;
+}
+
+.image3{
+
+    border-radius: 30px;
+    width: 20vw;
+    height: 400px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 100px ;
+    z-index: 1;
+}
+
+.image4{
+    border-radius: 30px;
+    width: 20vw;
+    height: 151px;
+    position: absolute;
+    z-index: 0;
+    top: 1081px;
+    margin-left: 283px;
+}
+.righttHalf{
+    width: 50vw;
+    height: 690px;
+}
+
+@media screen and (max-width: 992px) {
+    .leftHalf{
+           display: none;
+    }
+    .righttHalf{
+        display: block;
+        width: 100vw;
+        height: 690px;
+    }
+  }

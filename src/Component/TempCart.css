@@ -1,0 +1,63 @@
+.shoppingAdress{
+    background-color: white;
+    width: 27vw;
+    border-radius: 1em;
+    float: right;
+    height: 29vh;
+}
+
+.CartDetails{
+    width: 64vw;
+    border-radius: 1em;
+    background-color: white;
+    float: left;
+    overflow: auto;
+
+}
+
+
+.ParentWrapper{
+    padding: 1em;
+    background-color: #d5d5d5;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pricecart{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 16vh;
+        width: 60vw;
+        background: #cecdcd;
+        margin: 1em;
+        border-radius: 1em;
+        overflow: 'hidden'
+}
+          
+@media only screen and (max-width: 1050px) {
+    .shoppingAdress{
+        margin-top: 2em;
+        float: none;
+        width: 80vw;
+    }
+    .ParentWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: auto;
+
+    }
+    .CartDetails{
+        width: 98vw;
+        overflow-y: scroll;
+
+    }
+
+    .pricecart{
+        width: 90vw;
+    }
+
+}
